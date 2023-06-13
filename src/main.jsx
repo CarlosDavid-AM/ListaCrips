@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom/client'
 import './css/index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Error_404 from './components/error_404.jsx'
 import App from './components/App'
 import Cuacricula from './Cuacricula'
 import Bienvenida from './components/Bienvenida'
 import CriptoPage from './components/Criptos/CriptoPage'
+import Edesconosido from './components/Edesconosido'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <Route index element={<Cuacricula />} />
                 <Route path=':id' element={<CriptoPage ></CriptoPage>} />
             </Route>
-            <Route path='*' element={<Error_404 />} />
+            <Route path='*' element={<Edesconosido />} />
         </Routes>
     </BrowserRouter>
 )

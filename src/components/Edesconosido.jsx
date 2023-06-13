@@ -1,7 +1,7 @@
-const Error_404 = () => {
+const Edesconosido = () => {
     return(
         <span>Pagina no encontrada</span>
     )
 }
 
-export default Error_404
+export default Edesconosido
