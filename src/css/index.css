@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #007bff; /* Azul */
+  --color-secondary: #6c757d; /* Gris */
+  --color-accent: #ffc107; /* Amarillo */
+  --color-background: #f8f9fa; /* Fondo */
+  --color-text: #333; /* Texto principal */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: var(--color-text);
+  background-color: #dfe6eb; /* Azul plateado */
+}
+
+/* Resto de los estilos se mantienen igual */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}

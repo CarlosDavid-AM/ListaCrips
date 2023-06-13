@@ -1,0 +1,14 @@
+.criptos{
+    border:  1px solid black;
+    border-radius: 5px;
+    border-left: 10px solid rgb(53, 44, 44);
+    padding: 10px;
+}
+
+.info{
+    color: rgb(0, 44, 110);
+}
+
+.price{
+    color: #685656;
+}
